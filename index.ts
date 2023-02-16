@@ -1,7 +1,5 @@
 import fastify from 'fastify'
-import { Prisma, PrismaClient } from '@prisma/client'
-import { title } from 'process'
-import { json } from 'stream/consumers'
+import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 const app = fastify()
